@@ -5,4 +5,15 @@ head {
   color: blue;
 }
 
+h2 {
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color:#FFF
+  display: flex;
+  justify-content: ceneter;
+}
 
