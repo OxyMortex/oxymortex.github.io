@@ -1,0 +1,10 @@
+function clicked() {
+  console.log(document.getElementById("password").value)
+  password = document.getElementById("password").value;
+  if (/\d/.test(password)) {
+    console.log("lets go")
+    if (password !== password.toLowerCase()) {
+      console.log("lets go even more")
+    }
+  }
+}
